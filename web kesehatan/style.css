@@ -1,0 +1,152 @@
+body {
+  background-image: url(assets/images/background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 830px;
+}
+
+.jumbotron {
+  background-color: white;
+  overflow: hidden;
+}
+.jumbotext {
+  margin-left: 50px;
+}
+
+.jumbotext {
+  display: none;
+}
+.panel {
+  margin-top: -50px;
+  background-color: #efefef;
+  height: 180px;
+  padding: 20px;
+}
+.menukategori {
+  padding: 25px;
+}
+.menukategori a {
+  display: inline-block;
+  color: white;
+  background-color: #785cad;
+  border-radius: 2em;
+  padding: 0.5em 2em;
+  text-decoration: none;
+  margin: 10px;
+  font-size: smaller;
+  margin-top: -20px;
+}
+.footer {
+  height: 400px;
+  background-color: #efefef;
+}
+.footer {
+    background-color: #efefef;
+    height: 380px;
+  }
+  .footerhead h1 {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 48px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  .footertext h1 {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 42px;
+  }
+  .footertext img {
+    margin-right: 25px;
+  }
+  .linksosmed img {
+    width: 50px;
+    margin-top: 15px;
+  }
+
+@media (min-width: 992px) {
+  .jumbotext {
+    display: block;
+  }
+
+  .jumbotext {
+    margin-top: 100px;
+  }
+  .jumbotext a {
+    margin-top: 100px;
+    display: inline-block;
+    color: white;
+    background-color: #785cad;
+    border-radius: 2em;
+    padding: 0.7em 2em;
+    text-decoration: none;
+  }
+  .jumbotext p {
+    margin-top: 30px;
+  }
+
+  .jumbotron {
+    background-color: white;
+    margin-top: 0;
+  }
+  .menukategori a {
+    display: inline-block;
+    color: white;
+    background-color: #785cad;
+    border-radius: 2em;
+    padding: 0.5em 2em;
+    text-decoration: none;
+    margin: 7px;
+    font-size: 17px;
+  }
+
+  .panel {
+    margin-top: 230px;
+    background-color: #efefef;
+    height: 130px;
+    padding: 20px;
+  }
+  .panelkategori {
+    margin-top: 0 ;
+    background-color: #efefef;
+    height: 130px;
+    padding: 20px;
+  }
+  .next a {
+    display: inline-block;
+    color: white;
+    background-color: #785cad;
+    border-radius: 2em;
+    padding: 0.7em 2em;
+    text-decoration: none;
+  }
+  .footer {
+    background-color: #efefef;
+    height: 350px;
+  }
+  .footerhead h1 {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 56px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  .footertext h1 {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 48px;
+  }
+  .footertext img {
+    margin-right: 25px;
+  }
+  .linksosmed img {
+    width: 70px;
+  }
+}
+
+}

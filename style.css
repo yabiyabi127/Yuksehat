@@ -1,0 +1,190 @@
+body {
+  background-image: url(assets/images/background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 830px;
+}
+
+.navbar-nav a {
+  color: black !important;
+}
+
+.jumbotron {
+  background-color: white;
+  overflow: hidden;
+}
+.jumbotext {
+  margin-left: 50px;
+}
+
+.jumbotext {
+  display: none;
+}
+
+.jumbo__img {
+  width: 380px;
+  margin-bottom: 4rem;
+}
+.panel {
+  margin-top: -50px;
+  background-color: #efefef;
+  height: 180px;
+  padding: 20px;
+}
+.menukategori {
+  padding: 25px;
+}
+.menukategori a {
+  display: inline-block;
+  color: white;
+  background-color: #785cad;
+  border-radius: 2em;
+  padding: 0.5em 2em;
+  text-decoration: none;
+  margin: 10px;
+  font-size: smaller;
+  margin-top: -20px;
+}
+.footer {
+  height: 400px;
+  background-color: #efefef;
+}
+.footer {
+  background-color: #efefef;
+  height: 380px;
+}
+.footerhead p {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.footertext h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: black;
+  font-weight: 400;
+  font-size: 28px;
+}
+.footertext img {
+  margin-right: 25px;
+}
+.linksosmed img {
+  width: 34px;
+  margin-top: 15px;
+}
+
+.kategori {
+  background-color: #efefef;
+}
+.kategori a {
+  color: black;
+}
+
+@media (min-width: 992px) {
+  .navbar-nav a {
+    color: black !important;
+    text-transform: uppercase;
+    margin-right: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  }
+  .navbar-nav a:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 4px solid #785cad;
+    width: 50%;
+    margin: auto;
+    margin-bottom: -5px;
+    border-radius: 60px;
+  }
+  .jumbotext {
+    display: block;
+  }
+
+  .jumbotext {
+    margin-top: 100px;
+  }
+  .jumbotext a {
+    margin-top: 100px;
+    display: inline-block;
+    color: white;
+    background-color: #785cad;
+    border-radius: 2em;
+    padding: 0.7em 2em;
+    text-decoration: none;
+  }
+  .jumbotext p {
+    margin-top: 30px;
+  }
+  .jumbotext h1 {
+    text-shadow: 1px 1px 1px rgba(116, 112, 112, 0.9);
+  }
+
+  .jumbotron {
+    background-color: white;
+    margin-top: 0;
+  }
+  .menukategori a {
+    display: inline-block;
+    color: white;
+    background-color: #785cad;
+    border-radius: 2em;
+    padding: 0.5em 2em;
+    text-decoration: none;
+    margin: 7px;
+    font-size: 17px;
+  }
+
+  .panel {
+    margin-top: 230px;
+    background-color: #efefef;
+    height: 130px;
+    padding: 20px;
+  }
+  .panelkategori {
+    margin-top: 0;
+    background-color: #efefef;
+    height: 130px;
+    padding: 20px;
+  }
+  .next a {
+    display: inline-block;
+    color: white;
+    background-color: #785cad;
+    border-radius: 2em;
+    padding: 0.7em 2em;
+    text-decoration: none;
+  }
+  .footer {
+    background-color: #efefef;
+    height: 350px;
+  }
+  .footerhead p {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  .footertext h1 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    color: black;
+    font-weight: 400;
+    font-size: 32px;
+  }
+  .footertext img {
+    margin-right: 25px;
+  }
+  .linksosmed img {
+    width: 50px;
+  }
+}
